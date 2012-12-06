@@ -1,4 +1,4 @@
-//Como la programación es parte de las matemáticas, aquí comparto la codificación en C++ para obtener el mcd  empleando la forma larga descrita por Julio.  
+//UltimaModificacionComo la programación es parte de las matemáticas, aquí comparto la codificación en C++ para obtener el mcd  empleando la forma larga descrita por Julio.
 
 #include <iostream>
 
