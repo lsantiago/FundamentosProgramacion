@@ -1,5 +1,5 @@
 #include <cmath>
-#include <iostream>
+
 
 using namespace std;
 
@@ -54,7 +54,7 @@ float senoConSerie(int angGrados)
        resultado = resultado + (potencia(-1,n)*potencia(angRadianes,2*n+1))/factorial(2*n+1);
    }
 
-   return resultado; //INSTRUCCIÓN FALTANTE
+   return resultado; //INSTRUCCIï¿½N FALTANTE
 
 }
 
