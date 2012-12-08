@@ -47,7 +47,7 @@ void PresentarArreglo(int A[], int tamA)
 {
   for(int i=0;i<tamA;i++)
   {
-  	cout << "A["<<i<<"]: "<< A[i]<<endl;
+  	cout << "A["<<i<<"]: "<< A[i]<<endl ;
   }
 }
 
