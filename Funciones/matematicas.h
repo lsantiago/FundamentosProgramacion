@@ -1,7 +1,6 @@
 #include <cmath>
 
 
-using namespace std;
 
 int sumar(int, int);
 int restar(int, int);
