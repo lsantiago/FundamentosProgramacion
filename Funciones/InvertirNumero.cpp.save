@@ -1,11 +1,11 @@
-#include <iostream>
 
 using namespace std;
 
 int main()
 {
-  int nro = 1457;
+  int nro = 34567;
   int nroInv=0;
+
 
   while (nro > 0)
   {

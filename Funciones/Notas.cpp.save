@@ -1,0 +1,30 @@
+#include <iostream>
+
+using namespace std;
+
+const int MAX=20;
+
+int main(){
+	float notas[MAX];
+	char c='c';
+	int nr
+	cout << sizeof(c) << endl;
+
+	float total, promedio;
+	int i,a;
+	total = 0;
+	for(i = 0; i < MAX; i++){
+		cout << "Ingrese nota del alumno " << i+1 << ": ";
+		cin >> notas[i];
+	}
+
+	for(i = 0; i < MAX; i++)
+	{
+		total = total + notas[i];
+	}
+
+	promedio = float(total) / float(MAX);
+
+	cout.precision(2);
+    cout << fixed << "Promedio: " << promedio;
+}
