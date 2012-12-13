@@ -18,7 +18,7 @@ using namespace std;
 
 int main()
 {
-    //Semilla de números aleatorios
+    //Semilla de nï¿½meros aleatorios
     srand(time(NULL));
 
 
@@ -54,9 +54,7 @@ void presentarResultados()
 
     cout<<"\n\n\t\tNro. de Lanzamientos: "<<nroLanzamientos;
     cout<<"\n\t\t1/6 de "<<nroLanzamientos<<": "<< nroLanzamientos/6;
-    cout<<"\n\t\tNro. de veces que se obtuvo 7: "<<nroVeces7<<endl;
-}
-
+    cout<<"\n\t\tNro. de veces que se obtuvo 7: "<<nroVeces7*100/nroLanzamientos
 void lanzar(int &dado)
 {
     dado = 1 + rand()%(6);
