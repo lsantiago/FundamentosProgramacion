@@ -54,7 +54,7 @@ void presentarResultados()
 
     cout<<"\n\n\t\tNro. de Lanzamientos: "<<nroLanzamientos;
     cout<<"\n\t\t1/6 de "<<nroLanzamientos<<": "<< nroLanzamientos/6;
-    cout<<"\n\t\tNro. de veces que se obtuvo 7: "<<nroVeces7*100/nroLanzamientos<<"%"<<endl;
+    cout<<"\n\t\t% de veces que se obtuvo 7: "<<nroVeces7*100/nroLanzamientos<<"%"<<endl;
 }
 
 void lanzar(int &dado)
