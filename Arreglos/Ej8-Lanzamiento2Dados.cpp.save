@@ -37,8 +37,6 @@ int main()
 void presentarResultados()
 {
     cout <<"\tL A Z A M I E N T O  D E  2  D A D O S\n";
-
-    cout << "\n\nN\xa3mero de veces que se obtuvo el Dado1 (Fila) + Dado2 (Columna):\n";
     cout << "\n\t1\t2\t3\t4\t5\t6\n";
     cout << "\n====================================================\n";
     int contFilas=1;
@@ -54,9 +52,9 @@ void presentarResultados()
         }
     }
 
-    cout<<"\n\n\tN\xa3mero de Lanzamientos:              "<<nroLanzamientos;
-    cout<<"\n\t1/6 de "<<nroLanzamientos<<":                        "<< nroLanzamientos/6;
-    cout<<"\n\tPorcentaje de veces que se obtuvo 7: "<<nroVeces7<<" = "<<nroVeces7*100/nroLanzamientos<<"%"<<endl<<endl;
+    cout<<"\n\n\t\tNro. de Lanzamientos: "<<nroLanzamientos;
+    cout<<"\n\t\t1/6 de "<<nroLanzamientos<<": "<< nroLanzamientos/6;
+    cout<<"\n\t\tPorcentaje de veces que se obu 7: "<<nroVeces7*100/nroLanzamientos<<"%"<<endl;
 }
 
 void lanzar(int &dado)
