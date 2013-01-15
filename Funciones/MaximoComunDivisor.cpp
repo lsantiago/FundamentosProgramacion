@@ -1,29 +1,29 @@
-//Como la programación es parte de las matemáticas, aquí comparto la codificación en C++ para obtener el mcd  empleando la forma larga descrita por Julio.
+//Como la programaciï¿½n es parte de las matemï¿½ticas, aquï¿½ comparto la codificaciï¿½n en C++ para obtener el mcd  empleando la forma larga descrita por Julio.
 
 #include <iostream>
 
 using namespace std;
 
-int mayor(int a, int b)
+int mayor(int nro1, int nro2)
 {
-    if(a>b)
-       return a;
+    if(nro1>nro2)
+       return nro1;
     else
-       return b;
+       return nro2;
 }
 
-int mcd(int a, int b)
+int mcd(int nro1, int nro2)
 {
-    int nroMayor = mayor(a,b);
+    int nroMayor = mayor(nro1,nro2);
     int maxcomun=1;
 
-    //Proceso para obtener el máximo comun divisor
+    //Proceso para obtener el mï¿½ximo comun divisor
     for(int i=1;i<=nroMayor;i++)
     {
-       //Obtiene los divisores comunes entre a y b
-       if(a%i==0 && b%i==0)
+       //Obtiene los divisores comunes entre nro1 y nro2
+       if(nro1%i==0 && nro2%i==0)
        {
-           //Captura el máximo divisor
+           //Captura el mï¿½ximo divisor
            if(i>maxcomun)
               maxcomun = i;
        }
